@@ -1,6 +1,12 @@
 # Terminator-plugins-stackoverflow
 
-- stackoverflowsearchplugin.py - select text right click and search on stackoverflow
-
 ## config
-```cp *.py  ~/.config/terminator/plugins```
+Go to `~/.config/terminator`
+create `/plugins` if it doesn't exist
+```cp  StackOverflowSearchPlugin.py  ~/.config/terminator/plugins```
+
+## purpose
+Online Search for Stack Overflow: stackoverflowsearchplugin.py
+    Open a new browser window with a Stack Overflow search for the selected text in a terminal.
+    
+**Based on [choffee](https://github.com/choffee) work**
